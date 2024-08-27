@@ -1,0 +1,63 @@
+body {
+    color:beige;
+    background:rgb(255, 237, 158);
+    margin: 30px
+    font-family: "Roboto Mono", monospace;
+    margin-bottom: 100px
+}
+
+header{
+    background-color: rgb(139, 77, 19);
+    padding: 10px;
+    font-size: 50
+}
+
+.principal {
+    background: 10px rgb(222 152 94);
+    margin-top: 20px;
+    padding: 10px;
+    display:flex;
+    justify-content: space-around;
+}
+
+.texto {
+    margin-right: %5;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+.mais_videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 50px;
+}
+
+.outros-videos {
+    background: 10px rgb(222 152 94);
+    margin-top:20px;
+    padding-top: 40px;
+    padding-left: 200px;
+    padding-bottom: 40px; 
+}
+
+.outros-videos h2{
+    padding-left: 400px;
+    
+}
+
+.mais-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.mais-videos img:hover{
+    opacity: 1.0;
+    border: solid chocolate 5px
+}
